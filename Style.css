@@ -1,3 +1,27 @@
-body {
-    background-color:rgb
+h1{;
+    text-align: center;
+    font-family: 'Fantasy', sans-serif;
 }
+
+.navbar ul {
+    list-style-type: none;
+    background-color:rgb(48, 49, 49);
+    overflow:hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar a{
+  color:aliceblue;
+    text-decoration: none; 
+    padding :14px 16px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: black;
+}
+.navbar li{
+    float: left;
+}
+
+
