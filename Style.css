@@ -1,11 +1,11 @@
-h1{;
+h1{
     text-align: center;
     font-family: 'Fantasy', sans-serif;
 }
 
-.navbar ul {
+.navbar ul{
     list-style-type: none;
-    background-color:rgb(48, 49, 49);
+    background-color:rgb(31, 35, 35);
     overflow:hidden;
     margin: 0px;
     padding: 0px;
@@ -13,9 +13,9 @@ h1{;
 .navbar a{
   color:aliceblue;
     text-decoration: none; 
-    padding :14px 16px;
+    padding:25px;
     display: block;
-    text-align: center;
+    text-align:center;
 }
 .navbar a:hover{
     background-color: black;
