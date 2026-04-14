@@ -23,3 +23,19 @@
 <ul>
 </nav>
 </html>
+<p id= "demo"></p>
+<script>
+    var i = 0;
+    var txt = 'Welcome to my website about music genres and one famous composer/artist from each genre! Please click on the buttons above to learn more about the different genres and their famous composers/artists!';
+    var speed = 10;
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+
+    typeWriter();
+</script>
