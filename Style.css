@@ -3,11 +3,11 @@ h1{
     font-family: 'Fantasy', sans-serif;
 }
 
+
 .navbar ul{
     list-style-type: none;
     background-color:rgb(31, 35, 35);
-    overflow:hidden;
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
 }
 .navbar a{
@@ -23,7 +23,15 @@ h1{
 .navbar li{
     float: left;
 }
+.navbarT{
+    background-image: linear-gradient(to bottom, rgb(0, 38, 255), rgb(0, 217, 255));
+padding: 40px;
+margin: 0px;
+letter-spacing: 2px;
+color: white;
+text-shadow: 0px 3px 1px black;
 
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -43,7 +51,7 @@ img {vertical-align: middle;}
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: 22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -69,7 +77,7 @@ img {vertical-align: middle;}
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 5px;
   width: 100%;
   text-align: center;
 }
@@ -78,7 +86,7 @@ img {vertical-align: middle;}
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 5px 10px;
   position: absolute;
   top: 0;
 }
@@ -86,7 +94,7 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
+  height: 10px;
   width: 15px;
   margin: 0 2px;
   background-color: #bbb;
