@@ -11,7 +11,8 @@ h1{
     padding: 0px;
 }
 .navbar a{
-  color:aliceblue;
+  color:rgb(243, 35, 35)
+}
     text-decoration: none; 
     padding:25px;
     display: block;
@@ -28,11 +29,12 @@ h1{
 padding: 40px;
 margin: 0px;
 letter-spacing: 2px;
-color: white;
+color: black;
 text-shadow: 0px 3px 1px black;
 
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-* {box-sizing: border-box}
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+*{box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
