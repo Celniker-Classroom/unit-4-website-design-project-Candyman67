@@ -11,13 +11,15 @@ h1{
     padding: 0px;
 }
 .navbar a{
-  color:rgb(243, 35, 35)
-}
-    text-decoration: none; 
-    padding:25px;
+  color:white;
+    text-decoration:none; 
+    padding: 25px;
     display: block;
-    text-align:center;
-}
+    text-align: center;
+    background-color: rgb(5, 6, 0);
+
+    }
+
 .navbar a:hover{
     background-color: black;
 }
@@ -119,8 +121,14 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
+.music1{
+    text-align: center;
+}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+.music1 {
+  height: 200px;
 }
